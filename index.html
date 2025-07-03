@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Guest Wi-Fi Access</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="card">
+    <h1>Plan Group Guest Wi-Fi</h1>
+
+    <form id="signupForm" action="backend/submit.php" method="POST" novalidate>
+      <label>
+        First name
+        <input name="firstName" type="text" required maxlength="50" />
+      </label>
+
+      <label>
+        Last name
+        <input name="lastName" type="text" required maxlength="50" />
+      </label>
+
+      <label>
+        E-mail
+        <input name="email" type="email" required />
+      </label>
+
+      <label class="checkbox">
+        <input id="agree" type="checkbox" required />
+        I agree to the <a href="terms.html" target="_blank">Terms &amp; Conditions</a>
+      </label>
+
+      <button id="connectBtn" type="submit">Connect</button>
+    </form>
+  </div>
+
+  <script src="js/validate.js"></script>
+</body>
+</html>
