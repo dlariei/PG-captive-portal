@@ -18,7 +18,6 @@ The backend stores the data (18-month retention planned) and whitelists the devi
 
 ## ✨ Quick Start (Dev)
 
-bash
 1 Install PHP CLI
 brew install php              # macOS
 sudo apt install php-cli    # Debian/Ubuntu
@@ -28,8 +27,9 @@ php -S 0.0.0.0:9000 -t .  # Or a different port
 
 3 Open the splash page
 open http://localhost:9000/index.html
-# or from another device:
-# http://<your-Mac-IP>:9000/index.html
+
+or from another device:
+http://<your-Mac-IP>:9000/index.html
 
 
 <img width="1709" alt="Splash Page" src="https://github.com/user-attachments/assets/bc3c673f-286e-4a63-a338-99f563b917f4" />
