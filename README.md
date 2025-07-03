@@ -26,9 +26,6 @@ php -S 0.0.0.0:9000 -t .  # Or a different port
 
 3 Open the splash page
 open http://localhost:9000/index.html
-# or from another device:
-# http://<your-Mac-IP>:9000/index.html
-
 or from another device:
 http://<your-Mac-IP>:9000/index.html
 
